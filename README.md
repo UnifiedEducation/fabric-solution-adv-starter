@@ -1,6 +1,6 @@
 # fabric-solution-adv STARTER PROJECT
 
-The repository provides the STARTING POINT for the Intermediate 🔶 level Fabric Data Platform we're building at [Fabric Dojo](https://skool.com/fabricdojo/about).
+The repository provides the STARTING POINT for the Advanced ⬛ level Fabric Data Platform we're building at [Fabric Dojo](https://skool.com/fabricdojo/about).
 
 It gives you the starting repository structure, which you'll be building on top of, in your own GitHub repo. 
 
