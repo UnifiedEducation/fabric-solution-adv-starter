@@ -38,7 +38,7 @@
 
 - The design accounts for 9 separate workspaces, to separate Processing, Data Stores, and Consumption workloads, through three different Deployment stages (DEV, TEST and PROD) - this results in 9 workspaces in total. These workspaces will be created as part of the IAC deployment template.
 - The high-level architecture diagram does not include ephemeral, "feature" workspaces, which will be created for development of new features. The creation of these workspaces will be done through a GitHub Action automation, to be described in more detail, in the next Sprint.
-- As the client wishes to implement [Microsoft CICD Option 1](https://learn.microsoft.com/en-us/fabric/cicd/manage-deployment#option-1---git--based-deployments), each of the nine core workspaces will be connected to a folder in the Git repository, across three separate branches (DEV, TEST and PROD). A two-way sync will be implemented between the Git repository and the Workspaces, using GitHub Actions. Promotion of content between stages will be managed through GitHub pull requests only.
+
 
 #### Access
 
