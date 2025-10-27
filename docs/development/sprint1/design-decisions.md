@@ -80,7 +80,7 @@ Part 3: Deployment Stage:
 - DEV: Development stage
 - TEST: Test stage
 - PROD: Production stage
-- _Note: the deployment stage is optional, and only needs to be applied if the item goes through a deployment process. For example, in our architecture Security Groups will not be deployed, and so_
+- _Note: the deployment stage is optional, and only needs to be applied if the item goes through a deployment process. For example, in our architecture Security Groups will not be deployed, and so do not need a Deployment Stage in the name_
 
 Part 4: Short Description:
 
